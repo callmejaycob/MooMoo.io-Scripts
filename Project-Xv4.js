@@ -44,7 +44,7 @@ autoreloadloop = setInterval(function () {
 				this.__array = array;
 			}
 
-			fromID(id) {
+			fromID(id) {c
 				return this.__array.filter(thing => thing.id === id);
 			}
 
